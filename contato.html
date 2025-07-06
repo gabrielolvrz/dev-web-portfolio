@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <img src="src/perfil.png" alt="Foto de Perfil" width="80" />
+      <h1>Danilo Duarte</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Entre em contato:</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="nomePessoa">Nome:</label>
+          <input type="text" id="nomePessoa" name="nomePessoa" required />
+        </div>
+
+        <div>
+          <label for="emailPessoa">Email:</label>
+          <input type="email" id="emailPessoa" name="emailPessoa" required />
+        </div>
+
+        <div>
+          <label for="numPessoa">Telefone:</label>
+          <input type="tel" id="numPessoa" name="numPessoa" required />
+        </div>
+
+        <fieldset>
+          <legend>Você é um recrutador?</legend>
+          <div>
+            <input type="radio" id="recSim" name="tipoPessoa" value="sim" />
+            <label for="recSim">Sim</label>
+          </div>
+          <div>
+            <input type="radio" id="recNao" name="tipoPessoa" value="nao" />
+            <label for="recNao">Não</label>
+          </div>
+        </fieldset>
+
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
+        </div>
+
+        <div><button type="submit">Enviar</button></div>
+      </form>
+    </main>
+    <footer><p>&copy; 2025 - Todos os direitos reservados.</p></footer>
+  </body>
+</html>
